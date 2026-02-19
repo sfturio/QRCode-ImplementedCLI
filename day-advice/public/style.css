@@ -1,0 +1,4 @@
+body { font-family: system-ui, Arial; padding: 24px; }
+.card { max-width: 560px; padding: 18px; border: 1px solid #ddd; border-radius: 12px; }
+.advice { font-size: 18px; margin: 10px 0; }
+button { padding: 10px 12px; border-radius: 10px; border: 1px solid #ddd; cursor: pointer; }

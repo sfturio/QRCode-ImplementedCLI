@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Day Advice</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>Your advice for <%= dayName %></h1>
+    <p class="advice"><%= advice %></p>
+
+    <p class="meta"><strong>Today is:</strong> <%= dayName %></p>
+
+    <!-- "Refresh" aqui só recarrega a página -->
+    <form method="GET" action="/">
+      <button type="submit">Refresh</button>
+    </form>
+  </main>
+</body>
+</html>
